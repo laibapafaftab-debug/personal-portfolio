@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -8,18 +8,18 @@
   </head>
 
   <body>
-    <header>
+    <nav>
       <div class="logo">Laiba Aftab</div>
 
-      <nav>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </header>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
 
-    <section class="hero"
+    <header>
       <img src="profile.jpg" alt="Laiba Aftab" class="profile-pic" />
 
       <h1>Laiba Aftab</h1>
@@ -27,9 +27,9 @@
       <p>Aspiring Python Developer | Frontend Learner</p>
 
       <a href="resume.pdf" class="btn">Download Resume</a>
-    </section>
+    </header>
 
-    <section id="about" class="container">
+    <section id="about">
       <h2>About Me</h2>
 
       <p>
@@ -40,20 +40,20 @@
       </p>
     </section>
 
-    <section id="skills" class="container">
+    <section id="skills">
       <h2>Skills</h2>
 
-      <div class="skills-container">
-        <span class="skill-item">HTML5</span>
-        <span class="skill-item">CSS3</span>
-        <span class="skill-item">Python</span>
-        <span class="skill-item">Git</span>
-        <span class="skill-item">GitHub</span>
-        <span class="skill-item">VS Code</span>
+      <div class="cards">
+        <div class="card">HTML5</div>
+        <div class="card">CSS3</div>
+        <div class="card">Python</div>
+        <div class="card">Git</div>
+        <div class="card">GitHub</div>
+        <div class="card">VS Code</div>
       </div>
     </section>
 
-    <section id="projects" class="container">
+    <section id="projects">
       <h2>Projects</h2>
 
       <div class="project">
@@ -77,18 +77,20 @@
       </div>
     </section>
 
-    <section id="contact" class="container">
+    <section id="contact">
       <h2>Contact</h2>
 
       <p>📧 laibapafaftab@gmail.com</p>
       <p>📍 Punjab, Pakistan</p>
       <p>
-        <a href="https://github.com/laibapafaftab-debug" target="_blank">GitHub</a> | 
+        <a href="https://github.com/laibapafaftab-debug" target="_blank">GitHub</a>
+      </p>
+      <p>
         <a href="https://www.linkedin.com/in/laiba-aftab-211705420/" target="_blank">LinkedIn</a>
       </p>
     </section>
 
-    <footer style="text-align: center; padding: 20px; color: #64748b;">
+    <footer>
       <p>© 2026 Laiba Aftab | Keep Learning</p>
     </footer>
   </body>
